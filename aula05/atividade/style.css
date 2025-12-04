@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(180, 131, 71, 0.726);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 25px;
+    background-color: #fFFFFF;
+}
+
+.informacoes {
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+
+
+
+}
+
+.titulo-produto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    max-width: 90%;
+    /* margin-right: 100px; */
+    font-size: 18PX;
+    font-weight: 500;
+    margin-left: 20px;
+        
+
+
+
+
+}
+
+.preco-produto {
+    /* margin-right: 140px; */
+    border-radius: 20px;
+    width: 110px;
+    height: 25px;
+    background-color: #202020;
+    color: #fFFFFF;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+
+.descricao-produto {
+
+    margin-left: 20px;
+    max-width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+#imagem-roupa {
+    object-fit: cover;
+    width: 300px;
+    border-radius: 25px 25px 0px 0px;
+
+
+}
+
+.circle-coracao{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 5%;
+    margin-left: 10px;
+    background-color: rgba(255, 145, 0, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+
+}
+
+.circle1{
+    background-color: antiquewhite;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle2{
+    background-color: rgb(255, 251, 39);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle3{
+    background-color: rgb(255, 195, 31);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle4{
+    background-color: rgb(48, 29, 29);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
